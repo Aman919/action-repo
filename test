@@ -6,7 +6,8 @@ app = Flask(__name__)
 def app_init():
   value=False
   if value == True:
-    return 'You gonna pass this test'
+    delta = "You can do it buddy!!"
+    return 'You gonna pass this test {}'.format(delta)
   else:
     return 'Don\'t worry'
 
