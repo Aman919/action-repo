@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def app_init():
-  value=True
+  value=False
   if value == True:
     return 'You gonna pass this test'
   else:
